@@ -15,3 +15,21 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+my_shopping_list = ["milk", "eggs", "bacon"]
+john_shopping_list = ["beer", "cups", "balls"]
+# puts my_shopping_list
+# puts john_shopping_list
+
+combined_shopping_list = my_shopping_list + john_shopping_list
+#puts combined_shopping_list
+
+#sorts by alph
+sorted_list = combined_shopping_list.sort
+
+#depuplicate
+depuplicated_list = sorted_list.uniq
+puts depuplicated_list
+
+puts "Buy #{depuplicated_list[0]}"
+#repeat the above until you learn Loops 
