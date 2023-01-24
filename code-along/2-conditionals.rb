@@ -15,18 +15,52 @@
 # puts 3 != 2
 
 # If Conditional Logic
-if 3 > 2 
-    #..... 
-    puts "hell yeah brother"
-    puts "hell yeah sister"
-end
+# if 3 > 2 
+#     puts "hell yeah brother"
+#     puts "hell yeah sister"
+# end
 
-if 3 < 2
-    puts "what the hell was that?"
-end 
+# if 3 < 2
+#     puts "what the hell was that?"
+# end 
 
 # If/Else Conditional Logic
+# if 3 > 2 
+#     puts "hell yeah brother"
+#     puts "hell yeah sister"
+# else 
+#     puts "what the hell was that?"
+# end 
+
+password = "Tacos"
+user_entered_password = "password1"
+if password == user_entered_password
+    puts "hello"
+else  
+    puts "ahhhhh! go away!"
+end
 
 # Elsif Conditional Logic
 
+home_team_score = 98
+away_team_score = 99
+if home_team_score > away_team_score
+    puts "Winning!"
+elsif home_team_score < away_team_score
+    puts "Losing!"
+else    
+    puts "Tied!"
+end
+    
 # Combining Expressions
+
+temp = 84
+if temp < 80 && temp > 60
+    puts "nice out!"
+elsif temp > 80
+    puts "hot!"
+else 
+    puts "cold!"
+end
+
+# || is an or
